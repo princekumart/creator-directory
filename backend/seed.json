@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1",
+    "name": "Priya Sharma",
+    "niche": "beauty",
+    "followerCount": 45200,
+    "engagementRate": 3.8,
+    "email": "priya@example.com",
+    "status": "active",
+    "createdAt": "2026-01-10T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Rahul Verma",
+    "niche": "fitness",
+    "followerCount": 120000,
+    "engagementRate": 2.1,
+    "email": "rahul@example.com",
+    "status": "active",
+    "createdAt": "2026-01-15T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Ananya Iyer",
+    "niche": "travel",
+    "followerCount": 8000,
+    "engagementRate": 6.4,
+    "email": "ananya@example.com",
+    "status": "active",
+    "createdAt": "2026-01-20T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Karan Mehta",
+    "niche": "food",
+    "followerCount": 32000,
+    "engagementRate": 4.5,
+    "email": "karan@example.com",
+    "status": "inactive",
+    "createdAt": "2026-01-22T00:00:00Z"
+  },
+  {
+    "id": "5",
+    "name": "Sneha Kapoor",
+    "niche": "fashion",
+    "followerCount": 210000,
+    "engagementRate": 1.9,
+    "email": "sneha@example.com",
+    "status": "active",
+    "createdAt": "2026-01-25T00:00:00Z"
+  },
+  {
+    "id": "6",
+    "name": "Aman Singh",
+    "niche": "tech",
+    "followerCount": 56000,
+    "engagementRate": 4.1,
+    "email": "aman@example.com",
+    "status": "active",
+    "createdAt": "2026-01-28T00:00:00Z"
+  },
+  {
+    "id": "7",
+    "name": "Neha Gupta",
+    "niche": "beauty",
+    "followerCount": 98000,
+    "engagementRate": 5.2,
+    "email": "neha@example.com",
+    "status": "active",
+    "createdAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "8",
+    "name": "Rohit Kumar",
+    "niche": "fitness",
+    "followerCount": 74000,
+    "engagementRate": 3.5,
+    "email": "rohit@example.com",
+    "status": "inactive",
+    "createdAt": "2026-02-03T00:00:00Z"
+  },
+  {
+    "id": "9",
+    "name": "Pooja Patel",
+    "niche": "food",
+    "followerCount": 66000,
+    "engagementRate": 4.9,
+    "email": "pooja@example.com",
+    "status": "active",
+    "createdAt": "2026-02-05T00:00:00Z"
+  },
+  {
+    "id": "10",
+    "name": "Arjun Reddy",
+    "niche": "travel",
+    "followerCount": 145000,
+    "engagementRate": 2.8,
+    "email": "arjun@example.com",
+    "status": "active",
+    "createdAt": "2026-02-08T00:00:00Z"
+  },
+  {
+    "id": "11",
+    "name": "Meera Joshi",
+    "niche": "fashion",
+    "followerCount": 34000,
+    "engagementRate": 6.0,
+    "email": "meera@example.com",
+    "status": "inactive",
+    "createdAt": "2026-02-10T00:00:00Z"
+  },
+  {
+    "id": "12",
+    "name": "Vikas Yadav",
+    "niche": "tech",
+    "followerCount": 88000,
+    "engagementRate": 3.2,
+    "email": "vikas@example.com",
+    "status": "active",
+    "createdAt": "2026-02-12T00:00:00Z"
+  },
+  {
+    "id": "13",
+    "name": "Riya Das",
+    "niche": "beauty",
+    "followerCount": 23000,
+    "engagementRate": 5.7,
+    "email": "riya@example.com",
+    "status": "active",
+    "createdAt": "2026-02-14T00:00:00Z"
+  },
+  {
+    "id": "14",
+    "name": "Sahil Khan",
+    "niche": "fitness",
+    "followerCount": 152000,
+    "engagementRate": 2.3,
+    "email": "sahil@example.com",
+    "status": "active",
+    "createdAt": "2026-02-15T00:00:00Z"
+  },
+  {
+    "id": "15",
+    "name": "Nisha Roy",
+    "niche": "food",
+    "followerCount": 41000,
+    "engagementRate": 4.7,
+    "email": "nisha@example.com",
+    "status": "inactive",
+    "createdAt": "2026-02-18T00:00:00Z"
+  },
+  {
+    "id": "16",
+    "name": "Deepak Jain",
+    "niche": "travel",
+    "followerCount": 97000,
+    "engagementRate": 3.6,
+    "email": "deepak@example.com",
+    "status": "active",
+    "createdAt": "2026-02-20T00:00:00Z"
+  },
+  {
+    "id": "17",
+    "name": "Komal Arora",
+    "niche": "fashion",
+    "followerCount": 54000,
+    "engagementRate": 5.1,
+    "email": "komal@example.com",
+    "status": "active",
+    "createdAt": "2026-02-22T00:00:00Z"
+  },
+  {
+    "id": "18",
+    "name": "Harsh Mishra",
+    "niche": "tech",
+    "followerCount": 111000,
+    "engagementRate": 2.9,
+    "email": "harsh@example.com",
+    "status": "inactive",
+    "createdAt": "2026-02-25T00:00:00Z"
+  },
+  {
+    "id": "19",
+    "name": "Isha Malhotra",
+    "niche": "beauty",
+    "followerCount": 76000,
+    "engagementRate": 4.8,
+    "email": "isha@example.com",
+    "status": "active",
+    "createdAt": "2026-02-27T00:00:00Z"
+  },
+  {
+    "id": "20",
+    "name": "Abhishek Sharma",
+    "niche": "fitness",
+    "followerCount": 64000,
+    "engagementRate": 3.9,
+    "email": "abhishek@example.com",
+    "status": "active",
+    "createdAt": "2026-03-01T00:00:00Z"
+  },
+  {
+    "id": "21",
+    "name": "Tanvi Nair",
+    "niche": "travel",
+    "followerCount": 87000,
+    "engagementRate": 4.3,
+    "email": "tanvi@example.com",
+    "status": "inactive",
+    "createdAt": "2026-03-03T00:00:00Z"
+  },
+  {
+    "id": "22",
+    "name": "Mohit Bansal",
+    "niche": "food",
+    "followerCount": 29500,
+    "engagementRate": 5.6,
+    "email": "mohit@example.com",
+    "status": "active",
+    "createdAt": "2026-03-05T00:00:00Z"
+  },
+  {
+    "id": "23",
+    "name": "Sanya Kapoor",
+    "niche": "fashion",
+    "followerCount": 182000,
+    "engagementRate": 2.4,
+    "email": "sanya@example.com",
+    "status": "active",
+    "createdAt": "2026-03-08T00:00:00Z"
+  },
+  {
+    "id": "24",
+    "name": "Raj Patel",
+    "niche": "tech",
+    "followerCount": 39000,
+    "engagementRate": 6.1,
+    "email": "raj@example.com",
+    "status": "active",
+    "createdAt": "2026-03-10T00:00:00Z"
+  },
+  {
+    "id": "25",
+    "name": "Aditi Sharma",
+    "niche": "beauty",
+    "followerCount": 69000,
+    "engagementRate": 3.7,
+    "email": "aditi@example.com",
+    "status": "inactive",
+    "createdAt": "2026-03-12T00:00:00Z"
+  },
+  {
+    "id": "26",
+    "name": "Yash Gupta",
+    "niche": "fitness",
+    "followerCount": 51000,
+    "engagementRate": 4.2,
+    "email": "yash@example.com",
+    "status": "active",
+    "createdAt": "2026-03-15T00:00:00Z"
+  },
+  {
+    "id": "27",
+    "name": "Shreya Rao",
+    "niche": "travel",
+    "followerCount": 133000,
+    "engagementRate": 2.7,
+    "email": "shreya@example.com",
+    "status": "active",
+    "createdAt": "2026-03-18T00:00:00Z"
+  },
+  {
+    "id": "28",
+    "name": "Kunal Saxena",
+    "niche": "food",
+    "followerCount": 47000,
+    "engagementRate": 4.6,
+    "email": "kunal@example.com",
+    "status": "inactive",
+    "createdAt": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": "29",
+    "name": "Simran Kaur",
+    "niche": "fashion",
+    "followerCount": 92000,
+    "engagementRate": 3.4,
+    "email": "simran@example.com",
+    "status": "active",
+    "createdAt": "2026-03-22T00:00:00Z"
+  },
+  {
+    "id": "30",
+    "name": "Nitin Choudhary",
+    "niche": "tech",
+    "followerCount": 158000,
+    "engagementRate": 2.2,
+    "email": "nitin@example.com",
+    "status": "active",
+    "createdAt": "2026-03-25T00:00:00Z"
+  }
+]
