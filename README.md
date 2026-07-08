@@ -1,18 +1,35 @@
 # Creator Directory
 
-A full-stack Creator Directory application built with **Next.js**, **TypeScript**, **Express.js**, **React Query**, and **Tailwind CSS**.
+A full-stack Creator Directory application built with **Next.js**, **Node.js**, and **Express.js**. Users can browse, search, filter, sort, add, edit, and delete creators through a clean and responsive interface.
+
+## Live Demo
+
+**Frontend:** https://creator-directory-omega.vercel.app
+
+**Backend API:** https://creator-directory-backend.onrender.com
+
+**API Endpoint:**
+https://creator-directory-backend.onrender.com/creators
+
+## GitHub Repository
+
+https://github.com/princekumart/creator-directory
+
+---
 
 ## Features
 
-- Display creators in a paginated table
-- Server-side pagination
-- Server-side sorting
-- Server-side filtering
+- View creators
 - Add new creators
 - Edit creator details
 - Delete creators
-- React Query for data fetching and caching
-- Responsive UI with Tailwind CSS
+- Filter by niche
+- Filter by minimum followers
+- Filter by maximum followers
+- Sort by followers
+- Sort by engagement rate
+- Responsive UI
+- REST API integration
 
 ---
 
@@ -22,33 +39,34 @@ A full-stack Creator Directory application built with **Next.js**, **TypeScript*
 - Next.js
 - React
 - TypeScript
-- Tailwind CSS
 - Axios
-- TanStack React Query
+- CSS
 
 ### Backend
 - Node.js
 - Express.js
 - CORS
 
+### Deployment
+- Vercel (Frontend)
+- Render (Backend)
+
 ---
 
-## Folder Structure
+## Project Structure
 
 ```
-Creator-Directory
+creator-directory/
 │
-├── backend
+├── backend/
 │   ├── server.js
 │   ├── seed.json
-│   └── package.json
+│   ├── package.json
 │
-├── frontend
-│   ├── app
-│   ├── components
-│   ├── hooks
-│   ├── services
-│   └── package.json
+├── frontend/
+│   ├── app/
+│   ├── api.ts
+│   ├── package.json
 │
 └── README.md
 ```
@@ -63,14 +81,12 @@ Creator-Directory
 git clone https://github.com/princekumart/creator-directory.git
 ```
 
----
-
-## Backend Setup
+### Backend
 
 ```bash
 cd backend
 npm install
-node server.js
+npm start
 ```
 
 Backend runs on:
@@ -79,14 +95,12 @@ Backend runs on:
 http://localhost:4001
 ```
 
----
-
-## Frontend Setup
+### Frontend
 
 ```bash
 cd frontend
 npm install
-npm run dev -- --webpack
+npm run dev
 ```
 
 Frontend runs on:
@@ -105,33 +119,17 @@ http://localhost:3000
 GET /creators
 ```
 
-Supports:
-
-- page
-- limit
-- sortBy
-- order
-- niche
-- minFollowers
-- maxFollowers
-
----
-
-### Create Creator
+### Add Creator
 
 ```
 POST /creators
 ```
-
----
 
 ### Update Creator
 
 ```
 PATCH /creators/:id
 ```
-
----
 
 ### Delete Creator
 
@@ -141,21 +139,19 @@ DELETE /creators/:id
 
 ---
 
-## Screenshots
+## Deployment
 
-(Add screenshots here after deployment.)
+### Frontend
 
----
+Vercel
 
-## Future Improvements
+https://creator-directory-omega.vercel.app
 
-- Authentication
-- MongoDB Database
-- Search by name
-- Toast notifications
-- Form validation
-- Dashboard Analytics
-- Dark Mode
+### Backend
+
+Render
+
+https://creator-directory-backend.onrender.com
 
 ---
 
@@ -165,3 +161,9 @@ DELETE /creators/:id
 
 GitHub:
 https://github.com/princekumart
+
+---
+
+## License
+
+This project is for educational and portfolio purposes.
