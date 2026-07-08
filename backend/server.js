@@ -42,15 +42,20 @@ app.get("/creators", (req, res) => {
   // Sort
   if (sortBy) {
     results.sort((a, b) => {
-      if (order === "desc") {
-        return b[sortBy] - a[sortBy];
+      if (typeof a[sortBy] === "number") {
+        return order === "desc"
+          ? b[sortBy] - a[sortBy]
+          : a[sortBy] - b[sortBy];
+      } else {
+        return order === "desc"
+          ? String(b[sortBy]).localeCompare(String(a[sortBy]))
+          : String(a[sortBy]).localeCompare(String(b[sortBy]));
       }
-      return a[sortBy] - b[sortBy];
     });
   }
 
   const total = results.length;
-  const start = (page - 1) * limit;
+  const start = (Number(page) - 1) * Number(limit);
 
   res.json({
     data: results.slice(start, start + Number(limit)),
@@ -60,7 +65,7 @@ app.get("/creators", (req, res) => {
   });
 });
 
-// Create
+// Create Creator
 app.post("/creators", (req, res) => {
   const creator = {
     id: Date.now().toString(),
@@ -73,9 +78,11 @@ app.post("/creators", (req, res) => {
   res.status(201).json(creator);
 });
 
-// Update
+// Update Creator
 app.patch("/creators/:id", (req, res) => {
-  const index = creators.findIndex((c) => c.id === req.params.id);
+  const index = creators.findIndex(
+    (c) => c.id === req.params.id
+  );
 
   if (index === -1) {
     return res.status(404).json({
@@ -91,13 +98,23 @@ app.patch("/creators/:id", (req, res) => {
   res.json(creators[index]);
 });
 
-// Delete
+// Delete Creator
 app.delete("/creators/:id", (req, res) => {
-  creators = creators.filter((c) => c.id !== req.params.id);
+  creators = creators.filter(
+    (c) => c.id !== req.params.id
+  );
 
   res.status(204).send();
 });
 
-app.listen(4001, () => {
-  console.log("🚀 Mock API running at http://localhost:4001");
+// Home Route
+app.get("/", (req, res) => {
+  res.send("Creator Directory Backend is Running 🚀");
+});
+
+// Render Port
+const PORT = process.env.PORT || 4001;
+
+app.listen(PORT, () => {
+  console.log(`🚀 Server running on port ${PORT}`);
 });
